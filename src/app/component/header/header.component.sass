@@ -1,0 +1,45 @@
+.header
+        background-color: blue
+        width: 100%
+        display: flex
+        &-logo
+                list-style: none
+                text-decoration: none
+                background-color: white
+        &-logo img
+                width: 50%
+                display: block
+                margin-left: auto
+                margin-right: auto
+        &-nav
+                display: flex
+                list-style: none
+                text-decoration: none
+        &-nav li
+                color: white
+                margin: 5%
+                padding: auto
+        &-nav li:hover
+                cursor: pointer
+@media only screen and (min-width: 300px) and (max-width: 900px)
+        .header
+                background-color: white
+                width: 100%
+                display: block
+                &-logo
+                        list-style: none
+                        text-decoration: none
+                        background-color: white
+                &-logo img
+                        width: 50%
+                        display: block
+                        margin-left: auto
+                        margin-right: auto
+                &-nav
+                        display: block
+                        list-style: none
+                        text-decoration: none
+                &-nav li
+                        color: black
+                        margin: 5%
+                        padding: auto

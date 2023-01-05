@@ -1,0 +1,77 @@
+<app-header></app-header>
+<div class="container">
+
+    <div class="form-group">
+      <label for="exampleInputEmail1">Nombre del estudiante</label>
+      <input
+        type="text"
+        class="form-control"
+        id="name"
+        aria-describedby="name"
+        placeholder="Enter name"
+      />
+      <small id="emailHelp" class="form-text text-muted"
+        >Nombre del estudiante</small
+      >
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Nombre del padre</label>
+      <input
+        type="text"
+        class="form-control"
+        id="fatherName"
+        aria-describedby="nameDad"
+        placeholder="Enter name"
+      />
+      <small id="emailHelp" class="form-text text-muted"
+        >Nombre del padre</small
+      >
+    </div>
+    <select class="form-select" aria-label="Tipo de sangre">
+      <option selected>Tipo de sangre</option>
+      <option value="1">A+</option>
+      <option value="2">B+</option>
+      <option value="3">AB+</option>
+    </select>
+
+    <div class="form-group">
+      <label for="exampleInputEmail1">Fecha de nacimiento</label>
+      <input type="date" class="form-control" id="date" />
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Edad</label>
+        <input
+          type="number"
+          class="form-control"
+          id="Edad"
+          aria-describedby="nameDad"
+          placeholder="Enter age"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputEmail1">Grado</label>
+        <input
+          type="number"
+          class="form-control"
+          id="grado"
+          aria-describedby="nameDad"
+          placeholder="Enter grade"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">EPS afiliado</label>
+        <input
+          type="text"
+          class="form-control"
+          id="epsafiliado"
+          aria-describedby="nameDad"
+          placeholder="Enter EPS"
+        />
+        <small id="emailHelp" class="form-text text-muted"
+          >EPS afiliado</small
+        >
+      </div>
+    <button type="button" class="btn btn-primary" (click)="onsubmit()">Submit</button>
+
+</div>
